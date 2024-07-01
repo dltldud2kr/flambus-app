@@ -1,0 +1,98 @@
+.bottom_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFBA33;
+    height: 72px;
+    padding-bottom: 12px;
+}
+
+
+.collapseTab .contents {
+  height: 100vh;
+  overflow: auto;
+  display: block !important;
+}
+
+
+.collapseTab .MuiTabList-indicator{
+   color: red;
+}
+
+.collapseTab .css-1ujnqem-MuiTabs-root {
+  min-height: 40px;
+
+}
+.collapseTab .MuiTabPanel-root {
+  position: relative;
+  z-index: 10;
+  height: calc(100vh - 300px);
+  overflow-y: scroll;
+  padding: 0 !important;
+}
+.collapseTab .MuiTabs-flexContainer{
+  height:40px !important;
+}
+.collapseTab .MuiBox-root{
+  height:40px !important;
+}
+.collapseTab .MuiTabs-scroller{
+  height:40px !important;
+}
+.collapseTab .MuiButtonBase-root {
+  padding-top:0;
+}
+.collapseTab .container {
+  height:100vh;
+}
+
+/* 
+.collpase_tab_container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .collpase_tab_btn_wrap {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    position: relative;
+  }
+  
+  .tab {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative; 
+  }
+  
+  
+  .tab.selected {
+    border-bottom-color: transparent; 
+  
+  .indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color: #000;
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+    transform-origin: left center;
+    width: 100%;
+  }
+  
+  .tab:hover .indicator {
+    width: 0;
+    transform-origin: right center;
+  }
+  
+  .tab.selected .indicator {
+    width: 100%;
+    transform: translateX(0);
+  }
+    */

@@ -1,0 +1,403 @@
+/*로그인 페이지*/
+
+::placeholder {
+    font-size: 15px;
+}
+
+
+.f_login_box {
+    padding:0px 20px;
+}
+
+.f_login_box .login_input {
+    display:flex;
+    width:100%;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    height:46px;
+    margin-top:12px;
+    padding:4px 8px;
+    font-size: 16px;
+}
+
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 0px);
+}
+
+.footer_login_box {
+    display:flex;
+    margin-top: 18px;
+    padding:0px 20px;
+    justify-content:space-between;
+}
+
+
+
+.login_button {
+    background-color: #FFBA33;
+    margin-top: 0px;
+    border-radius: 12px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 8px; */
+    margin: 0px 10px;
+}
+.login_button > span {
+    color : #111;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.login_div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 28px;
+    color: #CCCCCC;
+    font-size: 14px;
+
+}
+
+.login_div span {
+    width:100%;
+}
+
+.login_div > .line {
+    width:100%;
+    border-top:1px solid #CCCC;
+}
+.login_div > .line:nth-child(1) {
+    margin-right: 20px;
+    margin-top:8px;
+}
+
+.login_div > .line:nth-child(2) {
+    margin-left: 20px;
+    margin-top:8px;
+
+}
+
+.login_social_button {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height:100px;
+}
+
+.login_social_button > span {
+    text-align: center;
+    width: 30%;
+}
+
+.no_user_div {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    gap:8px;
+
+    margin-top:20px;
+}
+
+
+.welcom_imag {
+    width:100%;
+    height:auto;
+}
+.welcome_imag > img {
+    padding: 0px 20px;
+    width: 100%;
+    height: 80%;
+}
+
+.landingWrap > .Plogin {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100% - 20px);
+}
+
+.landingWrap .main_title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #111;
+    font-weight: 600;
+    height: 200px;
+    gap: 4px;
+
+}
+
+/*메인 페이지*/
+.main_header {
+    height: 132px;
+    background-color: #FFBA33;
+    padding:20px;
+    /* padding: 20px; */
+}
+
+.main_item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 16px;
+    gap:12px;
+}
+.main_top_input {
+    display:flex;
+    width:100%;
+    border: 0px solid #D9D9D9;
+    height:44px;
+    padding:4px 8px;
+    font-size: 16px;
+}
+
+
+.dotori_count{
+    width:96px;
+    height:44px;
+    border-radius: 12px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dotricount {
+    font-size: 15px;
+    width:28px;
+    text-align: center;
+    color :#FFBA33;
+    font-weight: 700;
+}
+.segment {
+    height:24px;
+    border-left: 2px solid #494949;
+}
+.dotori_scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 230px;
+    width:100%;
+    background-color: #333333;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    gap:12px;
+    z-index: 100;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFBA33;
+    width: 113px;
+    height: 24px;
+    font-size: 12px;
+    margin-top:12px;
+    border-radius: 6px;
+}
+
+.message {
+    color:#FFBA33;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dotori_list {
+    margin-top:12px;
+display: flex;
+    gap:24px;
+}
+
+.help_message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #494949;
+    height:68px;
+    padding:8px 0px;
+    border-radius: 12px;;
+    width:100%;
+}
+.help_message > span {
+    color : #FFBA33;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* 가게 상세정보 */
+.shop_info_wrap {
+    overflow: hidden;
+}
+.shop_info_wrap> .Plogin > .storeTopWrap {
+    padding: 0px 20px;
+}
+.storeTopWrap{
+    display:flex;
+    flex-direction: column;
+    height:214px;
+}
+
+.storeTopWrap .sub_menu {
+    display: flex;
+    justify-content: space-between;
+}
+.title_area {
+    display: flex;
+    flex-direction: column;
+    margin-top:16px;
+    border-bottom :1px solid #F1F1F1;
+    padding-bottom:10px;
+}
+
+.store_info_wrap {
+    width:150px;
+    display: flex;
+    margin-top:12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store_info_wrap > .left {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address_wrap{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    margin-top: 8px;
+    height: 37px;
+    gap: 22px;
+}
+
+.shop_info_wrap .title_area_div {
+    margin-top: 22px;
+    border-bottom: 8px solid #F1F1F1;
+    width:100%;
+}
+
+.storeBottomWrap > .container{
+    padding : 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.storeBottomWrap .container .filter_button {
+    width:62px;
+    height:32px;
+    border: 1px solid #F1F1F1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#111;
+    margin:12px 0;
+    gap:6px;
+}
+
+/* photo reivew */
+
+.photo_review_wrap {
+    padding : 12px 0px;
+}
+.photo_review_wrap .imagebox{
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    width: 100%;
+    height: 210px;
+    border-radius: 12px;
+    overflow-x: auto;
+    flex-direction: row;
+    gap:6px;
+}
+
+.photo_review_wrap .imagebox img {
+    width:60%;
+    border-radius: 12px;
+}
+
+.photo_review_wrap .reivew_text_box{
+    min-height: 136px;
+    width:100%;
+    background-color: #F1F1F1;
+    margin:12px 0px;
+    border-radius: 12px;
+}
+
+.photo_review_wrap .reivew_text_box > .tag_box  {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    padding: 4px 16px;
+    align-items: center;
+}
+
+.photo_review_wrap .reivew_text_box > .tag_box > .tag {
+    height:27px;
+    flex-wrap: nowrap;
+    max-width: 120px;
+    width: auto;
+    background-color:white;
+    border-radius: 8px;
+    padding:0px 8px;
+}
+.tag > span{
+    font-size: 12px;
+    font-weight: 600;
+    color : #494949;
+
+}
+
+
+.reivew_text_box .review_text {
+    padding:8px 20px;
+}
+
+.shop_info_wrap .Plogin {
+    padding: 0 !important;
+  }
+.shop_info_wrap  .storeBottomWrap{
+    height: calc(100vh - 314px);
+}
+
+#create_review {
+    position: relative;
+    z-index: 40;
+}
+
+/* 메인 */
+.main_container {
+    height: calc(100vh - 133px);
+}
+
+.dotori_scroll {
+    position: absolute;
+    overflow: hidden;
+    transition: height 0.5s ease; /* Adjust the timing function and duration as needed */
+}
+
+.modal_open {
+    height: 240px;
+}
+
+.modal_close {
+    height: 0;
+}
